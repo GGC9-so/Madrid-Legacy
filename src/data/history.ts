@@ -1,0 +1,16 @@
+export const TIMELINE = [
+  { year: "1902", title: "Nace el club", text: "El 6 de marzo se constituye oficialmente el Madrid Football Club." },
+  { year: "1920", title: "Real Madrid", text: "El rey Alfonso XIII concede al club el título de «Real»." },
+  { year: "1943", title: "Llega Santiago Bernabéu", text: "Asume la presidencia y empieza a transformar al club y a su estadio." },
+  { year: "1947", title: "Se inaugura Chamartín", text: "Abre sus puertas el estadio que desde 1955 lleva el nombre de Santiago Bernabéu." },
+  { year: "1953", title: "Di Stéfano de blanco", text: "La llegada de la Saeta Rubia cambia la historia del club." },
+  { year: "1956–60", title: "Cinco Copas de Europa seguidas", text: "Del 4-3 al Stade de Reims en París al 7-3 al Eintracht Fráncfort en Glasgow, el Madrid domina Europa." },
+  { year: "1966", title: "La sexta", text: "Una generación de jugadores españoles, con Gento como capitán, conquista otra Copa de Europa." },
+  { year: "1998", title: "La Séptima", text: "Mijatović marca en Ámsterdam ante la Juventus y termina con 32 años de espera." },
+  { year: "2000", title: "La Octava", text: "El Madrid gana 3-0 al Valencia en París, la primera final europea entre dos equipos españoles." },
+  { year: "2002", title: "La Novena", text: "En el año del centenario, la volea de Zidane en Glasgow ante el Leverkusen pasa a la historia." },
+  { year: "2014", title: "La Décima", text: "Remontada en el descuento en Lisboa y 4-1 al Atlético en la prórroga." },
+  { year: "2016–18", title: "Tres Copas de Europa consecutivas", text: "Milán, Cardiff y Kiev: el Madrid inaugura una era sin precedentes en la Champions." },
+  { year: "2022", title: "La 14ª, en París", text: "Vinícius marca al Liverpool y corona una temporada de remontadas imposibles." },
+  { year: "2024", title: "La 15ª, en Wembley", text: "Carvajal y Vinícius firman el 2-0 al Borussia Dortmund." },
+];

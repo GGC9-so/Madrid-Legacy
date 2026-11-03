@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-mist text-ink antialiased; }
+  h1, h2, h3 { font-family: var(--font-display), Georgia, serif; font-weight: 600; letter-spacing: -0.01em; }
+  ::selection { background: #C4A35A; color: #0B1F3A; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-7xl px-5 sm:px-8; }
+  .card { @apply rounded-xl border border-gold/30 bg-white shadow-card transition duration-300; }
+  .card-hover { @apply hover:-translate-y-1 hover:border-gold hover:shadow-gold; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold; }
+  .btn-gold { @apply btn bg-gold text-night hover:bg-gold-light; }
+  .btn-ghost { @apply btn border border-white/30 text-white hover:border-gold hover:text-gold; }
+  .btn-ghost-dark { @apply btn border border-night/30 text-night hover:border-gold hover:text-gold-dark; }
+  .btn-night { @apply btn bg-night text-white hover:bg-night-light; }
+}
+
+/* Noche de Champions: la cabecera brilla en dorado los días de partido europeo */
+html[data-champions] header { box-shadow: 0 1px 0 #C4A35A, 0 10px 30px -12px rgba(196, 163, 90, 0.5); }
