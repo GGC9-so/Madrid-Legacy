@@ -8,5 +8,5 @@ export function youtubeId(input: string): string | null {
   return m ? m[1] : null;
 }
 export const VIDEOS: Record<string, string> = {
-  "j10-barcelona": "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+  "j10-barcelona": "https://youtu.be/-IkJEN4dF-s?si=mhWsFDWVgQ0-kIKo",
 };
